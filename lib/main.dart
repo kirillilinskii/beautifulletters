@@ -26,19 +26,19 @@ class MyApp extends StatelessWidget {
                 grad: 94,
                 fontSizeLetters: 70,
                 numberColor: Color(0xFFdab371),
-                backgroundColor: Colors.grey[50],
+                
               ),
               BeautifulLetters(
                 name: 'Kirill',
                 grad: 100,
                 numberColor: Color(0xFFdab371),
-                backgroundColor: Colors.grey[50],
+                
               ),
               BeautifulLetters(
                 name: 'Andrey',
                 grad: 25,
                 numberColor: Color(0xFFdab371),
-                backgroundColor: Colors.grey[50],
+                
                 fontSizeLetters: 40,
               ),
             ],
@@ -53,14 +53,14 @@ class BeautifulLetters extends StatelessWidget {
   final String name;
   final int grad;
   final Color numberColor;
-  final Color backgroundColor;
+  
   final double fontSizeLetters;
   //final double fontSizeNumbers;
   BeautifulLetters({
     this.name,
     this.grad,
     this.numberColor,
-    this.backgroundColor,
+    
     //   this.fontSizeNumbers: 40,
     this.fontSizeLetters: 30,
   });
